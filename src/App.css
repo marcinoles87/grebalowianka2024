@@ -1,3 +1,9 @@
+:root{
+    --main-color: rgb(35, 192, 35);
+    --nav-font-size: 18px;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -21,4 +27,40 @@
 .header-logo a{
     margin-left: 30px;
 
+}
+
+
+/*nav*/
+
+.nav-container{
+
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav-items ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-items ul li a{
+  
+    font-size: var(--nav-font-size);
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+
+.nav-items ul li a:hover{
+    font-size: 20px;
 }
