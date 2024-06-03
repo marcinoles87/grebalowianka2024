@@ -14,6 +14,21 @@ function Main() {
         <a href=''></a>
         <img src={main1} alt='main'></img>
       </div>
+
+      <div className='main-item2'>
+      <a href=''></a>
+        <img src={main1} alt='main'></img>
+      </div>
+
+      <div className='main-item2'>
+      <a href=''></a>
+        <img src={main1} alt='main'></img>
+      </div>
+
+      <div className='main-item2'>
+      <a href=''></a>
+        <img src={main1} alt='main'></img>
+      </div>
     </div>
   )
 }
