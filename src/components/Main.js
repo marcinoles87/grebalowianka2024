@@ -6,27 +6,27 @@ function Main() {
   return (
     <div className='main-container'>
       <div className='main-item'>
-        <a href=''></a>
+        <a href=''>Greba - Wieczysta</a>
         <img src={main1} alt='main'></img>
       </div>
 
       <div className='main-item'>
-        <a href=''></a>
+        <a href=''>Dzien dziecka w grebalowie</a>
         <img src={main1} alt='main'></img>
       </div>
 
       <div className='main-item2'>
-      <a href=''></a>
+      <a href=''>Nowe stroje</a>
         <img src={main1} alt='main'></img>
       </div>
 
       <div className='main-item2'>
-      <a href=''></a>
+      <a href=''>Ciekawostki okolofutbolowe</a>
         <img src={main1} alt='main'></img>
       </div>
 
       <div className='main-item2'>
-      <a href=''></a>
+      <a href=''>Kadra</a>
         <img src={main1} alt='main'></img>
       </div>
     </div>
