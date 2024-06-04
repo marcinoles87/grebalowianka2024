@@ -1,5 +1,6 @@
 
 import './App.css';
+import Aktualnosci from './components/Aktualnosci';
 
 import Header from './components/Header';
 import Main from './components/Main';
@@ -12,6 +13,7 @@ function App() {
       <Header></Header>
       <Nav></Nav>
       <Main></Main>
+      <Aktualnosci></Aktualnosci>
     </div>
   );
 }
