@@ -36,7 +36,10 @@ function Aktualnosci() {
 
 
   return (
-    <Container>
+    <>
+   
+     <Container className='aktualnosci'>
+      
          {actual.map( (item , index) => {
       return(
         <Card style={{ width: '18rem' }}   key={item.index}>
@@ -52,6 +55,8 @@ function Aktualnosci() {
       )
     })}
     </Container>
+    </>
+   
    
     
   )
