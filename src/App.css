@@ -156,3 +156,39 @@
     align-items: center;
     margin-top: 50px;
 }
+
+
+/*galeria*/
+
+.galeria-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.galeria-items{
+    display: flex;
+    flex-direction: row;
+}
+
+.galeria-item{
+    position: relative;
+    width: 30%;
+    height: 30%;
+}
+
+.galeria-item img{
+    width:100%;
+    object-fit: cover;
+}
+
+.galeria-item p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size: 1.4rem;
+}

@@ -42,7 +42,7 @@ function Aktualnosci() {
       
          {actual.map( (item , index) => {
       return(
-        <Card style={{ width: '18rem' }}   key={item.index}>
+        <Card style={{ width: '18rem' }}   key={index}>
     <Card.Img variant="top" src={item.img} />
     <Card.Body>
       <Card.Title>{item.title}</Card.Title>
