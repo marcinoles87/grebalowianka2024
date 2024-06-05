@@ -58,7 +58,7 @@
     text-transform: uppercase;
     color:black;
     margin: 20px;
-    transition: 0.7s ease;
+    transition: 0.4s ease;
 }
 
 .nav-items ul li a:hover{
@@ -166,17 +166,25 @@
 
 }
 
+.galeria-container h1{
+    text-align: center;
+}
+
 
 
 .galeria-items{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap:5px;
+    align-items: center;
 }
 
 .galeria-item{
     position: relative;
     width: 30%;
     height: 30%;
+   
 }
 
 .galeria-item img{
