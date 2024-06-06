@@ -6,6 +6,7 @@ import Galeria from './components/Galeria';
 import Header from './components/Header';
 import Main from './components/Main';
 import Nav from './components/Nav';
+import Partner from './components/Partner'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Main></Main>
       <Aktualnosci></Aktualnosci>
       <Galeria></Galeria>
+      <Partner></Partner>
     </div>
   );
 }

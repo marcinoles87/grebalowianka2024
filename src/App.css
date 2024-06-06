@@ -200,3 +200,41 @@
     color:white;
     font-size: 1.4rem;
 }
+
+
+/* partner*/
+
+.partner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.partner-logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.partner-logo img{
+    
+    width: 15vw;
+    height: 200px;
+    object-fit: contain;
+    filter: grayscale(1);
+    transition: 0.5s ease;
+   
+
+}
+
+.partner-logo img:hover{
+    transform: scale(1.1);
+  filter: grayscale(0);
+}
+
