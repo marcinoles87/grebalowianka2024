@@ -5,7 +5,7 @@ import logo1 from '../img/logo1.jpg'
 function Partner() {
   return (
     <div className='partner-container'>
-      <h1>Partner</h1>
+      <h1>Partnerzy</h1>
 
       <div className='partner-logo'>
         <img src={logo1} alt='logo1'></img>
