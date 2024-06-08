@@ -1,12 +1,14 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+
 function Nav() {
   return (
     <div className='nav-container'>
       <div className='nav-items'>
         <ul>
           <li><a href='#'>Główna</a></li>
-          <li><a href='#'>I Drużyna</a></li>
+          <li><a href='#'><Link to={'/seniorzy'} className='navbar-link'>Seniorzy</Link></a></li>
           <li><a href='#'>Akademia</a></li>
           <li><a href='#'>Galeria</a></li>
           <li><a href='#'>Rozgrywki</a></li>
