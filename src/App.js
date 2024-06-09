@@ -10,6 +10,7 @@ import Nav from './components/Nav';
 import Partner from './components/Partner';
 
 import { Route, Routes } from 'react-router';
+import Seniorzy from './components/pages/Seniorzy';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
     <div className="App">
 
       <Routes>
-        <Route path='*' element={
+        <Route path='/' exact element={
               <>
                 <Header></Header>
                 <Nav></Nav>
@@ -28,9 +29,12 @@ function App() {
                 <Kontakt></Kontakt>
               </>
         }/>
+
+          <Route path='/seniorzy' element={<Seniorzy></Seniorzy>}></Route>
         
 
       </Routes>
+
    
       
     </div>
