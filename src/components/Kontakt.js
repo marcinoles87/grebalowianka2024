@@ -4,7 +4,7 @@ import logo from '../img/logo.png'
 
 function Kontakt() {
   return (
-    <div className='contact-container'>
+    <div className='contact-container' id='contact'>
         <h1>Kontakt</h1>
         <div className='contact-item'>
 
@@ -15,7 +15,7 @@ function Kontakt() {
             </div>
             
             <img src={logo} alt='logo'></img>
-            <h1><span style={{color:'#7FFF00'}}><b>#70Lat</b></span>Grębałowianki</h1>
+            <h1><span style={{color:'orange'}}><b>#70LAT</b></span><span style={{color:'blue'}}>GRĘBAŁOWIANKI</span></h1>
         </div>
     </div>
   )
