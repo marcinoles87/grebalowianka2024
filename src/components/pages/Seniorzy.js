@@ -39,6 +39,48 @@ function Seniorzy() {
       position : 'bramkarz' ,
       profil : s1
     },
+
+    {
+      name : 'xxxxx' ,
+      date : '1999-20-05' ,
+      position : 'bramkarz' ,
+      profil : s1
+    },
+
+    {
+      name : 'xxxxx' ,
+      date : '1999-20-05' ,
+      position : 'bramkarz' ,
+      profil : s1
+    },
+
+    {
+      name : 'xxxxx' ,
+      date : '1999-20-05' ,
+      position : 'bramkarz' ,
+      profil : s1
+    },
+
+    {
+      name : 'xxxxx' ,
+      date : '1999-20-05' ,
+      position : 'bramkarz' ,
+      profil : s1
+    },
+
+    {
+      name : 'xxxxx' ,
+      date : '1999-20-05' ,
+      position : 'bramkarz' ,
+      profil : s1
+    },
+
+    {
+      name : 'xxxxx' ,
+      date : '1999-20-05' ,
+      position : 'bramkarz' ,
+      profil : s1
+    },
   ]
   return (
     <div className='seniorzy-container'>
@@ -46,12 +88,13 @@ function Seniorzy() {
       <div className='seniorzy-kadra'>
         {team.map( (item , index) => {
           return(
-            <>
+            <div className='seniorzy-zawodnik' key={index}>
+            <img src={item.profil} alt='zawodnik'></img>
             <h3>{item.name}</h3>
             <h3>{item.date}</h3>
             <h3>{item.position}</h3>
 
-            </>
+            </div>
           )
         })}
       </div>
