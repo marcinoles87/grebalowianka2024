@@ -2,6 +2,7 @@ import React from 'react'
 
 import main1 from '../img/main.jpg'
 import wydarzenie1 from '../img/wydarzenie1.jpg'
+import wydarzenie2 from '../img/wydarzenie2.jpg'
 
 function Main() {
   return (
@@ -13,8 +14,8 @@ function Main() {
       </div>
 
       <div className='main-item'>
-        <a href=''>Dzien dziecka w grebalowie</a>
-        <img src={main1} alt='main'></img>
+        <a href=''>70-lecie KS GREBALOWIANKI</a>
+        <img src={wydarzenie2} alt='main'></img>
       </div>
       </div>
      
