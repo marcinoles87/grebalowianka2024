@@ -1,14 +1,15 @@
 import React from 'react'
 
 import main1 from '../img/main.jpg'
+import wydarzenie1 from '../img/wydarzenie1.jpg'
 
 function Main() {
   return (
     <div className='main-container'>
       <div className='first'>
       <div className='main-item'>
-        <a href=''>Greba - Wieczysta</a>
-        <img src={main1} alt='main'></img>
+        <a href=''>Wysokie 4 miejsce na koniec sezonu</a>
+        <img src={wydarzenie1} alt='main'></img>
       </div>
 
       <div className='main-item'>
