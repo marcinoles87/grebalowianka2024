@@ -3,6 +3,7 @@ import React from 'react'
 import main1 from '../img/main.jpg'
 import wydarzenie1 from '../img/wydarzenie1.jpg'
 import wydarzenie2 from '../img/wydarzenie2.jpg'
+import wydarzenie3 from '../img/wydarzenie3.png'
 
 function Main() {
   return (
@@ -22,7 +23,7 @@ function Main() {
         <div className='second'>
         <div className='main-item2'>
       <a href=''  className='main-item-link'>Nowe stroje</a>
-        <img src={main1} alt='main' className='main-item-img'></img>
+        <img src={wydarzenie3} alt='main' className='main-item-img'></img>
       </div>
 
       <div className='main-item2'>
