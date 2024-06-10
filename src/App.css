@@ -142,7 +142,7 @@
   
 }
 
-.main-item img:hover{
+.main-item-img:hover{
     filter: saturate(1.2);
     filter: grayscale(0);
 }
