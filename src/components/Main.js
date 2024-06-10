@@ -9,30 +9,30 @@ function Main() {
     <div className='main-container'>
       <div className='first'>
       <div className='main-item'>
-        <a href=''>Wysokie 4 miejsce na koniec sezonu</a>
-        <img src={wydarzenie1} alt='main'></img>
+        <a href='' className='main-item-link'>Wysokie 4 miejsce na koniec sezonu</a>
+        <img src={wydarzenie1} alt='main' className='main-item-img'></img>
       </div>
 
       <div className='main-item'>
-        <a href=''>70-lecie KS GREBALOWIANKI</a>
-        <img src={wydarzenie2} alt='main'></img>
+        <a href=''  className='main-item-link'>70-lecie KS GREBALOWIANKI</a>
+        <img src={wydarzenie2} alt='main' className='main-item-img'></img>
       </div>
       </div>
      
         <div className='second'>
         <div className='main-item2'>
-      <a href=''>Nowe stroje</a>
-        <img src={main1} alt='main'></img>
+      <a href=''  className='main-item-link'>Nowe stroje</a>
+        <img src={main1} alt='main' className='main-item-img'></img>
       </div>
 
       <div className='main-item2'>
-      <a href=''>Ciekawostki okolofutbolowe</a>
-        <img src={main1} alt='main'></img>
+      <a href=''  className='main-item-link'>Ciekawostki okolofutbolowe</a>
+        <img src={main1} alt='main' className='main-item-img'></img>
       </div>
 
       <div className='main-item2'>
-      <a href=''>Kadra</a>
-        <img src={main1} alt='main'></img>
+      <a href=''  className='main-item-link'>Kadra</a>
+        <img src={main1} alt='main' className='main-item-img'></img>
       </div>
         </div>
      
