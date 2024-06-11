@@ -22,7 +22,7 @@ function Mecze() {
                         <div className='matchDay' key={index}>
                                 <p>{item.gospodarze} vs {item.goście}</p> 
                                 <p> {item.godzinaMeczu}</p>
-                                <p> {item.wynik}</p>
+                                <p> {item.wynik  ? item.wynik : '0:0'}</p>
                             </div>
                         
                     )
