@@ -1,6 +1,7 @@
 import React from 'react'
 
 import logo1 from '../img/logo1.jpg'
+import emiaLogo from '../img/emia.jpg'
 
 function Partner() {
   return (
@@ -9,7 +10,7 @@ function Partner() {
 
       <div className='partner-logo'>
         <img src={logo1} alt='logo1'></img>
-        <img src={logo1} alt='logo1'></img>
+        <img src={emiaLogo} alt='logo1'></img>
         <img src={logo1} alt='logo1'></img>
         <img src={logo1} alt='logo1'></img>
         <img src={logo1} alt='logo1'></img>
