@@ -8,16 +8,19 @@ function Galeria() {
     const gal =  [
         {
             img1: gre_m1,
+            text:'Grębałowianka-Prądniczanka'
           
         } ,
 
         {
             img1: gre_m1,
+            text:'Grębałowianka-Proszowianka'
           
         } ,
 
         {
             img1: gre_m1,
+            text:'Grębałowianka-Pogoń Miechów'
           
         }
     ]
@@ -31,7 +34,7 @@ function Galeria() {
                     return(
                         <div className='galeria-item' key={index}>
                             <img src={item.img1} alt=""></img>
-                            <p>Grebalowianka-Gdów</p>
+                            <p>{item.text}</p>
                             </div>
                         
                     )

@@ -1,4 +1,5 @@
-import React from 'react'
+
+import { Link } from 'react-router-dom'
 
 import main1 from '../img/main.jpg'
 import wydarzenie1 from '../img/wydarzenie1.jpg'
@@ -22,7 +23,7 @@ function Main() {
      
         <div className='second'>
         <div className='main-item2'>
-      <a href=''  className='main-item-link'>Nowe stroje</a>
+      <a href=''  className='main-item-link'><Link to={'/rozgrywki'} className='main-item-link'></Link>Info</a>
         <img src={wydarzenie3} alt='main' className='main-item-img'></img>
       </div>
 

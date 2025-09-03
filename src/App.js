@@ -12,6 +12,7 @@ import Partner from './components/Partner';
 import { Route, Routes } from 'react-router';
 import Seniorzy from './components/pages/Seniorzy';
 import Rozgrywki from './components/pages/Rozgrywki';
+import Info from './components/Info'
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
 
           <Route path='/seniorzy' element={<Seniorzy></Seniorzy>}></Route>
           <Route path='/rozgrywki' element={<Rozgrywki></Rozgrywki>}></Route>
+          <Route path='/info' element={<Info></Info>}></Route>
         
 
       </Routes>
