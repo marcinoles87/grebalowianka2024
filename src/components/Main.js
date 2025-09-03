@@ -23,7 +23,7 @@ function Main() {
      
         <div className='second'>
         <div className='main-item2'>
-      <a href=''  className='main-item-link'><Link to={'/rozgrywki'} className='main-item-link'></Link>Info</a>
+      <Link to={'/info'} className='main-item-link'>Info</Link>
         <img src={wydarzenie3} alt='main' className='main-item-img'></img>
       </div>
 
