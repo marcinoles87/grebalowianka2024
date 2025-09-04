@@ -14,6 +14,7 @@ import Seniorzy from './components/pages/Seniorzy';
 import Rozgrywki from './components/pages/Rozgrywki';
 import Info from './components/Info'
 import Podsumowanie from './components/pages/Podsumowanie';
+import Jublieusz from './components/pages/Jublieusz';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           <Route path='/rozgrywki' element={<Rozgrywki></Rozgrywki>}></Route>
           <Route path='/info' element={<Info></Info>}></Route>
           <Route path='/podsumowanie' element={<Podsumowanie/>}></Route>
+          <Route path='/jublieusz' element={<Jublieusz/>}></Route>
         
 
       </Routes>

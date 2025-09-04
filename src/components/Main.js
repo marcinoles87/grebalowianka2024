@@ -16,7 +16,7 @@ function Main() {
       </div>
 
       <div className='main-item'>
-        <a href=''  className='main-item-link'>70-lecie KS GREBALOWIANKI</a>
+      <Link to={'/jublieusz'} className='main-item-link'>Jublieusz 70-lecia</Link>
         <img src={wydarzenie2} alt='main' className='main-item-img'></img>
       </div>
       </div>
