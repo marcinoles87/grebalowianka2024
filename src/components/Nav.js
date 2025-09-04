@@ -8,10 +8,10 @@ function Nav() {
       <div className='nav-items'>
         <ul>
           <li><a href='#'>Główna</a></li>
-          <li><a href='#'><Link to={'/seniorzy'} className='navbar-link'>Seniorzy</Link></a></li>
+          <Link to={'/seniorzy'} className='navbar-link'>Seniorzy</Link>
           <li><a href='https://www.akademiagrebalowianka.pl/'>Akademia</a></li>
           <li><a href='#'>Galeria</a></li>
-          <li><a href='#'><Link to={'/rozgrywki'} className='navbar-link'>Rozgrywki</Link></a></li>
+          <Link to={'/rozgrywki'} className='navbar-link'>Rozgrywki</Link>
           <li><a href='#contact'>Kontakt</a></li>
         </ul>
       </div>
