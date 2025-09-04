@@ -11,7 +11,7 @@ function Main() {
     <div className='main-container'>
       <div className='first'>
       <div className='main-item'>
-        <a href='' className='main-item-link'>Wysokie 4 miejsce na koniec sezonu</a>
+      <Link to={'/podsumowanie'} className='main-item-link'>Podsumowanie sezonu 2024/2025</Link>
         <img src={wydarzenie1} alt='main' className='main-item-img'></img>
       </div>
 
