@@ -9,7 +9,7 @@ function Nav() {
         <ul>
           <li><a href='#'>Główna</a></li>
           <Link to={'/seniorzy'} className='navbar-link'>Seniorzy</Link>
-          <li><a href='https://www.akademiagrebalowianka.pl/'>Akademia</a></li>
+          <Link href='https://www.akademiagrebalowianka.pl/' className='navbar-link'>Akademia</Link>
           <li><a href='#'>Galeria</a></li>
           <Link to={'/rozgrywki'} className='navbar-link'>Rozgrywki</Link>
           <li><a href='#contact'>Kontakt</a></li>
