@@ -28,7 +28,7 @@ function Galeria() {
     <div>
         <div className='galeria-container'>
             <h1>Galeria</h1>
-            <div className='galeria-items'>
+            <div className='galeria-items' id='galeria'>
                
                 {gal.map( (item ,index) => {
                     return(
