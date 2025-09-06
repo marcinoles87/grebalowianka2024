@@ -1,7 +1,9 @@
-import React, { act } from 'react'
+
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container'
+import { Link } from 'react-router-dom';
+
 
 import img1 from '../img/main.jpg'
 
@@ -49,7 +51,8 @@ function Aktualnosci() {
       <Card.Text>
         {item.text}
       </Card.Text>
-      <Button variant="primary">Więcej</Button>
+    <Link to={'/info'} className='main-item-link'>Info</Link>
+    
     </Card.Body>
   </Card>
       )
