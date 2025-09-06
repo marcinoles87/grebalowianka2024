@@ -17,20 +17,31 @@ function Aktualnosci() {
       title : 'oboz grebalowianki' ,
       text : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
       img : img1 ,
+      info:'oboz grup młodzieżowych'
 
     } ,
 
     {
-      title : 'oboz grebalowianki' ,
+      title : 'zarząd klubu' ,
       text : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
       img : img1 ,
+      info:'informacje na temat zarządu'
 
     } ,
 
     {
-      title : 'oboz grebalowianki' ,
+      title : 'nowe boisko' ,
       text : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
       img : img1 ,
+      info:'nowe boisko dla Gręby'
+
+    },
+
+      {
+      title : 'nowe boisko' ,
+      text : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
+      img : img1 ,
+      info:'nowe boisko dla Gręby'
 
     }
 
@@ -51,7 +62,7 @@ function Aktualnosci() {
       <Card.Text>
         {item.text}
       </Card.Text>
-    <Link to={'/info'} className='main-item-link'>Info</Link>
+    <Link to={'/info'} className='main-item-link'>{item.info.substring(0,20)+'...'}</Link>
     
     </Card.Body>
   </Card>
