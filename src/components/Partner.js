@@ -8,7 +8,7 @@ import pzpn from '../img/pzpn.png'
 function Partner() {
   return (
     <div className='partner-container'>
-      <h1>Partnerzy</h1>
+      <h1>Wspierają nas</h1>
 
       <div className='partner-logo'>
         <img src={logo1} alt='logo1'></img>

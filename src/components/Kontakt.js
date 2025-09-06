@@ -5,7 +5,7 @@ import logo from '../img/logo.png'
 function Kontakt() {
   return (
     <div className='contact-container' id='contact'>
-        <h1>Kontakt</h1>
+      
         <div className='contact-item'>
 
             <div className='contact-item-adres'>
