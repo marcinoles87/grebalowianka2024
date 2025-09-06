@@ -28,7 +28,8 @@ function Main() {
       </div>
 
       <div className='main-item2'>
-      <a href=''  className='main-item-link'>Ciekawostki okolofutbolowe</a>
+                <Link to={'/ciekawostki'} className='main-item-link'>Ciekawostki okołofutbolowe</Link>
+
         <img src={main1} alt='main' className='main-item-img'></img>
       </div>
 

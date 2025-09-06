@@ -15,6 +15,7 @@ import Rozgrywki from './components/pages/Rozgrywki';
 import Info from './components/Info'
 import Podsumowanie from './components/pages/Podsumowanie';
 import Jublieusz from './components/pages/Jublieusz';
+import Ciekawostki from './components/pages/Ciekawostki';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           <Route path='/info' element={<Info></Info>}></Route>
           <Route path='/podsumowanie' element={<Podsumowanie/>}></Route>
           <Route path='/jublieusz' element={<Jublieusz/>}></Route>
+          <Route path='/ciekawostki' element={<Ciekawostki/>}></Route>
         
 
       </Routes>
