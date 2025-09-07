@@ -326,3 +326,19 @@ h1{
    width: 100%;
 }
 
+
+@media (max-width:780px) {
+
+    .aktualnosci-container{
+        flex-wrap: wrap;
+    }
+
+    .aktualnosci-container .card{
+        width: 45vw!important
+    }
+    .card{
+        
+    }
+    
+}
+
