@@ -348,6 +348,12 @@ h1{
 
     .first{
         flex-direction: column;
+        width: 100%;
+    }
+
+    .second{
+        flex-direction: column;
+        width: 100%;
     }
 
    .main-container{
@@ -358,9 +364,6 @@ h1{
     width: 100%;
    }
 
-   .second{
-    flex-direction: column;
-   }
 
    .main-item2{
     width: 100%;
@@ -370,13 +373,12 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:left;
-    align-items: baseline;
     margin-top: 10px;
     padding: 0;
    }
 
    .card{
-    width: 70%!important;
+    width: 100%!important;
    }
 
    .card-img-top{
@@ -385,6 +387,25 @@ h1{
 
    .main-item-link{
     font-size: 10px;
+   }
+
+   .galeria-items{
+    flex-direction: column;
+   }
+
+   .galeria-item{
+    width: 60%;
+    height: auto;
+   }
+
+   .contact-item{
+    flex-direction: column;
+    text-align: center;
+    gap: 2px;
+   }
+
+   .contact-item img{
+    width: 200px;
    }
 
    
