@@ -327,10 +327,65 @@ h1{
 }
 
 
-@media (max-width:430px) {
+@media only screen and (max-width: 600px){
 
-   .nav-items ul{
+    .header-logo{
+        margin: 10px;
+    }
+   
+    .header-logo img{
+        width: 35%;
+    }
+
+    .fa-2xl{
+        font-size: 1.2em;
+    }
+
+    .nav-items ul{
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .first{
+        flex-direction: column;
+    }
+
+   .main-container{
+    justify-content: unset;
+   }
+
+   .main-item{
+    width: 100%;
+   }
+
+   .second{
     flex-direction: column;
    }
-}
 
+   .main-item2{
+    width: 100%;
+   }
+
+   .aktualnosci{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:left;
+    align-items: baseline;
+    margin-top: 10px;
+    padding: 0;
+   }
+
+   .card{
+    width: 70%!important;
+   }
+
+   .card-img-top{
+    border-radius: 0;
+   }
+
+   .main-item-link{
+    font-size: 10px;
+   }
+
+   
+}
