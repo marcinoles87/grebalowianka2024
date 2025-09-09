@@ -17,7 +17,8 @@ function Aktualnosci() {
       title : 'oboz grebalowianki' ,
       text : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
       img : img1 ,
-      info:'oboz grup młodzieżowych'
+      info:'oboz grup młodzieżowych',
+      patch:'info'
 
     } ,
 
@@ -25,15 +26,18 @@ function Aktualnosci() {
       title : 'zarząd klubu' ,
       text : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
       img : img1 ,
-      info:'informacje na temat zarządu'
+      info:'informacje na temat zarządu',
+      patch:'zarzad'
 
     } ,
 
     {
-      title : 'nowe boisko' ,
+      title : 'informacje o obozie' ,
       text : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
       img : img1 ,
-      info:'nowe boisko dla Gręby'
+      info:'oboz grebalowianki 2026',
+      patch:'oboz'
+
 
     },
 
@@ -41,7 +45,8 @@ function Aktualnosci() {
       title : 'nowe boisko' ,
       text : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
       img : img1 ,
-      info:'nowe boisko dla Gręby'
+      info:'nowe boisko dla Gręby',
+      patch:'info'
 
     }
 
@@ -62,7 +67,7 @@ function Aktualnosci() {
       <Card.Text>
         {item.text}
       </Card.Text>
-    <Link to={'/info'} className='main-item-link'>{item.info.substring(0,20)+'...'}</Link>
+    <Link to={`/${item.patch}`} className='main-item-link'>{item.info.substring(0,20)+'...'}</Link>
     
     </Card.Body>
   </Card>

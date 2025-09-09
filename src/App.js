@@ -16,6 +16,8 @@ import Info from './components/Info'
 import Podsumowanie from './components/pages/Podsumowanie';
 import Jublieusz from './components/pages/Jublieusz';
 import Ciekawostki from './components/pages/Ciekawostki';
+import Zarzad from './components/pages/Zarzad';
+import Oboz from './components/pages/Oboz';
 
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
           <Route path='/podsumowanie' element={<Podsumowanie/>}></Route>
           <Route path='/jublieusz' element={<Jublieusz/>}></Route>
           <Route path='/ciekawostki' element={<Ciekawostki/>}></Route>
+          <Route path='/zarzad' element={<Zarzad/>}></Route>
+          <Route path='/oboz' element={<Oboz/>}></Route>
         
 
       </Routes>

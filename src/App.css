@@ -386,7 +386,11 @@ h1{
    }
 
    .main-item-link{
-    font-size: 10px;
+    font-size: 4.5vw;
+   }
+
+   .main-item2 a{
+    font-size: 4.5vw;
    }
 
    .galeria-items{
