@@ -14,10 +14,10 @@ function Aktualnosci() {
 
   const actual = [
     {
-      title : 'oboz grebalowianki' ,
+      title : 'informacje o klubie' ,
       text : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
       img : img1 ,
-      info:'oboz grup młodzieżowych',
+      info:'Grębałowianka informacje ogolne',
       patch:'info'
 
     } ,
@@ -42,11 +42,11 @@ function Aktualnosci() {
     },
 
       {
-      title : 'nowe boisko' ,
+      title : 'wynajem boiska' ,
       text : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
       img : img1 ,
       info:'nowe boisko dla Gręby',
-      patch:'info'
+      patch:'wynajem'
 
     }
 
