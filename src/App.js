@@ -18,6 +18,7 @@ import Jublieusz from './components/pages/Jublieusz';
 import Ciekawostki from './components/pages/Ciekawostki';
 import Zarzad from './components/pages/Zarzad';
 import Oboz from './components/pages/Oboz';
+import Wynajem from './components/pages/Wynajem';
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
           <Route path='/ciekawostki' element={<Ciekawostki/>}></Route>
           <Route path='/zarzad' element={<Zarzad/>}></Route>
           <Route path='/oboz' element={<Oboz/>}></Route>
+          <Route path='/wynajem' element={<Wynajem/>}></Route>
         
 
       </Routes>
