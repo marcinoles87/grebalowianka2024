@@ -327,6 +327,8 @@ h1{
 }
 
 
+
+
 @media only screen and (max-width: 600px){
 
     .header-logo{
@@ -411,6 +413,28 @@ h1{
    .contact-item img{
     width: 200px;
    }
+
+   .wynajem-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .boiska{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boiska img{
+        width: 100%;
+    }
+
+    .boiska h2{
+        font-size: 2rem;
+    }
 
    
 }

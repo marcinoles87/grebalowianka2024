@@ -2,6 +2,7 @@ import React from 'react'
 
 import małe from '/web frontend/projekty React/grebalowianka2024/src/img/małeBoisko.webp'
 import duze from '/web frontend/projekty React/grebalowianka2024/src/img/duzeBoisko.jpg'
+import kort from '/web frontend/projekty React/grebalowianka2024/src/img/kort.webp'
 
 function Wynajem() {
   return (
@@ -19,7 +20,7 @@ function Wynajem() {
         <img src={duze} alt='male'></img>
 
         <h2>Kort tenisowy</h2>
-        <img src="" alt="kort"></img>
+        <img src={kort} alt="kort"></img>
 
       </div>
     </div>
