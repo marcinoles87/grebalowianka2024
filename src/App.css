@@ -326,6 +326,43 @@ h1{
    width: 100%;
 }
 
+.wynajem-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.boiska img{
+    width: 100%;
+
+}
+
+.boiska{
+    display: flex;
+    flex-direction: column;
+}
+
+.male{
+    position: relative;
+}
+
+
+
+.male p{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    background-color: rgba(4, 4, 4, 0.4);
+    font-size: 2.5rem;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+
+
 
 
 
@@ -433,7 +470,7 @@ h1{
     }
 
     .boiska h2{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
    
