@@ -1,5 +1,8 @@
 import React from 'react'
 
+import małe from '/web frontend/projekty React/grebalowianka2024/src/img/małeBoisko.webp'
+import duze from '/web frontend/projekty React/grebalowianka2024/src/img/duzeBoisko.jpg'
+
 function Wynajem() {
   return (
     <div className='wynajem-container'>
@@ -10,10 +13,10 @@ function Wynajem() {
       <div class="boiska">
 
         <h2>Małe boisko</h2>
-        <img src='' alt='male'></img>
+        <img src={małe} alt='male'></img>
 
         <h2>Duże boisko</h2>
-        <img src='' alt='male'></img>
+        <img src={duze} alt='male'></img>
 
         <h2>Kort tenisowy</h2>
         <img src="" alt="kort"></img>
