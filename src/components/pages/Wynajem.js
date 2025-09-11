@@ -19,13 +19,45 @@ function Wynajem() {
           <h2>Małe boisko</h2>
           <img src={małe} alt='male'></img>
         </div>
-        
+
         <div class="info">
           <p>Szatnia do przebierania</p>
           <p>Prysznice</p>
           <p>Wymiar boiska : 80x40</p>
           <p>90min - 500zl</p>
           <p>60min - 300zl</p>
+        </div>
+        
+      </div>
+
+      <div class="male">
+
+        <div class="zdj">
+          <h2>Duże boisko</h2>
+          <img src={duze} alt='male'></img>
+        </div>
+        
+        <div class="info">
+          <p>Szatnia do przebierania</p>
+          <p>Prysznice</p>
+          <p>Wymiar boiska : 100x54</p>
+          <p>90min - 700zl</p>
+          <p>60min - 400zl</p>
+        </div>
+        
+      </div>
+
+      <div class="male">
+
+        <div class="zdj">
+          <h2>Kort tenisowy</h2>
+          <img src={kort} alt='male'></img>
+        </div>
+        
+        <div class="info">
+          <p>Wymiar boiska : 30x20</p>
+          <p>90min - 200zl</p>
+          <p>60min - 100zl</p>
         </div>
         
       </div>
