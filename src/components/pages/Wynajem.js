@@ -6,11 +6,12 @@ import kort from '/web frontend/projekty React/grebalowianka2024/src/img/kort.we
 
 function Wynajem() {
 
-  const handleResize = () =>{
-    const element = document.querySelector('zdj')
-    const info = document.querySelector('info')
-    element.classList.toggle('resize')
-    info.classList.toggle('hidden')
+  const handleResize = (e) =>{
+    console.log(e.target)
+    const element = document.querySelector('.zdj')
+    const info = document.querySelector('.info')
+    e.target.classList.toggle('resize')
+    // e.target.classList.toggle('hidden')
   }
   return (
     <div className='wynajem-container'>
@@ -41,7 +42,7 @@ function Wynajem() {
 
         <div class="zdj">
           <h2>Duże boisko</h2>
-          <img src={duze} alt='male'></img>
+          <img src={duze} alt='male' onClick={handleResize}></img>
         </div>
         
         <div class="info">
@@ -58,7 +59,7 @@ function Wynajem() {
 
         <div class="zdj">
           <h2>Kort tenisowy</h2>
-          <img src={kort} alt='male'></img>
+          <img src={kort} alt='male' onClick={handleResize}></img>
         </div>
         
         <div class="info">

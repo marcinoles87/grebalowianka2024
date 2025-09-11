@@ -357,6 +357,7 @@ h1{
 
 .zdj{
     width: 40%;
+    transition: 1s ease;
     
 }
 
@@ -364,6 +365,8 @@ h1{
     border-radius: 10px;
     transition: 0.5 ease;
 }
+
+
 
 .info{
     margin: 10px;
