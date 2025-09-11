@@ -5,6 +5,12 @@ import duze from '/web frontend/projekty React/grebalowianka2024/src/img/duzeBoi
 import kort from '/web frontend/projekty React/grebalowianka2024/src/img/kort.webp'
 
 function Wynajem() {
+
+  const handleResize = () =>{
+    const element = document.querySelector('.zdj')
+    console.log(element)
+    element.classList.toggle('resize')
+  }
   return (
     <div className='wynajem-container'>
       <div className='wynajem-header'>
@@ -17,7 +23,7 @@ function Wynajem() {
 
         <div class="zdj">
           <h2>Małe boisko</h2>
-          <img src={małe} alt='male'></img>
+          <img src={małe} alt='male' onClick={handleResize}></img>
         </div>
 
         <div class="info">

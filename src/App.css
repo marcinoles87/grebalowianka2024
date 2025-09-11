@@ -352,6 +352,7 @@ h1{
     flex-direction: row;
     justify-content: left;
     align-items: center;
+    transition: 1s ease;
 }
 
 .zdj{
@@ -361,6 +362,7 @@ h1{
 
 .zdj img{
     border-radius: 10px;
+    transition: 0.5 ease;
 }
 
 .info{
@@ -368,7 +370,10 @@ h1{
 }
 
 
-
+.resize{
+ transform: translate(50%,50%);
+ transform: scale(1.5);
+}
 
 
 
@@ -476,9 +481,9 @@ h1{
         align-items: center;
     }
 
-    .boiska img{
+    /* .boiska img{
         width: 100%;
-    }
+    } */
 
     .boiska h2{
         font-size: 1.7rem;
