@@ -332,6 +332,10 @@ h1{
     flex-wrap: wrap;
 }
 
+.wynajem-header{
+    margin: 10px;
+}
+
 .boiska img{
     width: 100%;
 
@@ -352,6 +356,11 @@ h1{
 
 .zdj{
     width: 40%;
+    
+}
+
+.zdj img{
+    border-radius: 10px;
 }
 
 .info{
@@ -473,6 +482,14 @@ h1{
 
     .boiska h2{
         font-size: 1.7rem;
+    }
+
+    .male{
+        align-items: baseline;
+    }
+
+    .zdj{
+        width: 80%;
     }
 
    
