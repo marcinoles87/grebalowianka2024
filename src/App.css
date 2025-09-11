@@ -371,8 +371,11 @@ h1{
 
 
 .resize{
- transform: translate(50%,50%);
- transform: scale(1.5);
+ width: 100vw;
+}
+
+.hidden{
+    visibility: hidden;
 }
 
 

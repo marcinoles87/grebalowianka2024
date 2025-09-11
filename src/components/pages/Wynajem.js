@@ -7,9 +7,10 @@ import kort from '/web frontend/projekty React/grebalowianka2024/src/img/kort.we
 function Wynajem() {
 
   const handleResize = () =>{
-    const element = document.querySelector('.zdj')
-    console.log(element)
+    const element = document.querySelector('zdj')
+    const info = document.querySelector('info')
     element.classList.toggle('resize')
+    info.classList.toggle('hidden')
   }
   return (
     <div className='wynajem-container'>
