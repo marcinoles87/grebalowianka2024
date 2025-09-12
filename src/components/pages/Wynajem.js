@@ -63,9 +63,9 @@ function Wynajem() {
         </div>
         
         <div class="info">
-          <p>Wymiar boiska : 30x20</p>
-          <p>90min - 200zl</p>
-          <p>60min - 100zl</p>
+          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> Wymiar boiska : 30x20</p>
+          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> 90min - 200zl</p>
+          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> 60min - 100zl</p>
         </div>
         
       </div>
