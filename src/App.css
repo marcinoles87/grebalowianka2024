@@ -370,14 +370,16 @@ h1{
 
 .info{
     margin: 20px;
-    box-shadow: 2px 10px 20px #9d9b9b6e;
+    box-shadow: 2px 15px 10px #4343436e;
     padding: 10px;
     transition: 0.8s ease;
+    color:white;
+    background-color: rgb(2,2,90);
     
 }
 
 .info:hover{
-    box-shadow:5px 10px 15px rgb(67, 67, 67);
+    box-shadow:7px 15px 10px rgb(48, 48, 48);
 }
 
 

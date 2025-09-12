@@ -29,11 +29,11 @@ function Wynajem() {
         </div>
 
         <div class="info">
-          <p>Szatnia do przebierania</p>
-          <p>Prysznice</p>
-          <p>Wymiar boiska : 80x40</p>
-          <p>90min - 500zl</p>
-          <p>60min - 300zl</p>
+          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> Szatnia do przebierania</p>
+          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> Prysznice</p>
+          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> Wymiar boiska : 80x40</p>
+          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> 90min - 500zl</p>
+          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> 60min - 300zl</p>
         </div>
         
       </div>
@@ -46,11 +46,11 @@ function Wynajem() {
         </div>
         
         <div class="info">
-          <p>Szatnia do przebierania</p>
-          <p>Prysznice</p>
-          <p>Wymiar boiska : 100x54</p>
-          <p>90min - 700zl</p>
-          <p>60min - 400zl</p>
+          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> Szatnia do przebierania</p>
+          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> Prysznice</p>
+          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> Wymiar boiska : 100x54</p>
+          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> 90min - 700zl</p>
+          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> 60min - 400zl</p>
         </div>
         
       </div>
