@@ -12,6 +12,7 @@ function Nav() {
           <Link  className='navbar-link'>Akademia</Link>
           <li><a href='#galeria'>Galeria</a></li>
           <Link to={'/rozgrywki'} className='navbar-link'>Rozgrywki</Link>
+          <Link to={'/kontakt'} className='navbar-link'>Napisz do Nas</Link>
           <li><a href='#contact'>Kontakt</a></li>
         </ul>
       </div>

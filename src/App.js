@@ -19,6 +19,7 @@ import Ciekawostki from './components/pages/Ciekawostki';
 import Zarzad from './components/pages/Zarzad';
 import Oboz from './components/pages/Oboz';
 import Wynajem from './components/pages/Wynajem';
+import Formularz from './components/pages/Formularz';
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
           <Route path='/zarzad' element={<Zarzad/>}></Route>
           <Route path='/oboz' element={<Oboz/>}></Route>
           <Route path='/wynajem' element={<Wynajem/>}></Route>
+          <Route path='/kontakt' element={<Formularz/>}></Route>
         
 
       </Routes>
