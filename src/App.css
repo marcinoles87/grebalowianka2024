@@ -541,5 +541,14 @@ form{
         padding: 5px;
     }
 
+    .formularz-container button{
+        margin: 10px;
+        padding: 5px 20px;
+        background-color: rgb(2,2,90);
+        color:white;
+        border-radius: 10px;
+        border: 2px solid rgb(255, 132, 0);
+    }
+
    
 }
