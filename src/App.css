@@ -382,6 +382,19 @@ h1{
     box-shadow:7px 15px 10px rgb(48, 48, 48);
 }
 
+/* formularz*/
+
+.formularz-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .resize{
  width: 100vw;
@@ -511,6 +524,21 @@ h1{
 
     .zdj{
         width: 80%;
+    }
+
+    .formularz-container{
+        margin: 10px;
+    }
+
+    .formularz-container form input{
+        padding: 5px;
+        border-radius: 5px;
+
+    }
+
+    textarea{
+        min-height: 240px;
+        padding: 5px;
     }
 
    

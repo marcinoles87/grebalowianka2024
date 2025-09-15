@@ -1,23 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Formularz() {
+
+const [name , setName] = useState('');
+const [email , setEmail] = useState('');
+const [message , setMessage] = useState('');
+
+const sendEmail = () =>{
+
+}
+
+console.log(name)
   return (
     <div className='formularz-container'>
       <div className='form'>
-        <form action="send">
+        <form action="send" autoComplete='off'>
 
           <h1>Wyślij nam zapytanie </h1>
 
-          <label for="name">Name:</label>
-          <input type="text" placeholder='name'/>
+          <label htmlFor="name">Name:</label>
+          <input id='name' type="text" placeholder='name' autoComplete='off' onChange={ (e) => { setName(e.target.value)}}/>
 
-          <label for="email">Email:</label>
-          <input type="email" placeholder='email'/>
+          <label htmlFor="email">Email:</label>
+          <input id='email' type="email" placeholder='email' autoComplete='off' onChange={ (e) => { setEmail(e.target.value)}}/>
 
-          <label for="message">Message: </label>
-          <input type="text" placeholder='message'/>
+          <label htmlFor="message">Message: </label>
+          <textarea id='message' type="text" placeholder='message' autoComplete='off' onChange={ (e) => { setMessage(e.target.value)}}/>
 
         </form>
+
+        <button onClick={sendEmail}>Wyślij</button>
       </div>
 
     </div>
