@@ -8,8 +8,14 @@ const [message , setMessage] = useState('');
 
 const sendEmail = () =>{
 
-alert(`Hello ${name} , thanks for your message , We feedback as soon as possible ! team Greba . Wiadomość wysłana`)
 
+if(name.length < 3){
+  alert(`Imie zbyt krótkie , prosimy wpisac ponownie`)
+}else{
+
+  alert(`Hello ${name} , thanks for your message , We feedback as soon as possible ! team Greba . Wiadomość wysłana`)
+
+}
 
 }
 
