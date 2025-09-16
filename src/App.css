@@ -534,14 +534,26 @@ form{
         padding: 5px;
         border-radius: 5px;
         background-color: rgb(235, 235, 235);
+        transition: 0.8s ease;
 
     }
+
+    .formularz-container form input:hover{
+        background-color: white;
+
+    }
+
 
     textarea{
         min-height: 240px;
         padding: 5px;
         background-color: rgb(235, 235, 235);
+        border-radius: 10px;
+        transition: 0.8s ease;
+    }
 
+    textarea:hover{
+        background-color: white;
     }
 
     .formularz-container button{

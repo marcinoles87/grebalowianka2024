@@ -8,7 +8,7 @@ const [message , setMessage] = useState('');
 
 const sendEmail = () =>{
 
-
+alert(`Hello ${name} , thanks for your message , We feedback as soon as possible ! team Greba . Wiadomość wysłana`)
 
 
 }
@@ -28,7 +28,7 @@ console.log(name)
           <input id='email' type="email" placeholder='email' autoComplete='off' onChange={ (e) => { setEmail(e.target.value)}}/>
 
           <label htmlFor="message">Message: </label>
-          <textarea id='message' type="text" placeholder='message' autoComplete='off' onChange={ (e) => { setMessage(e.target.value)}}/>
+          <textarea id='message' type="text" placeholder='send as a message...' autoComplete='off' onChange={ (e) => { setMessage(e.target.value)}}/>
 
         </form>
 
