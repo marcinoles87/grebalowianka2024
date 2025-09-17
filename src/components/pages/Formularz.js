@@ -7,6 +7,7 @@ const [email , setEmail] = useState('');
 const [message , setMessage] = useState('');
 const [placholderError , setPlaceholder] = useState(false)
 
+
 const sendEmail = () =>{
 
   const names = document.querySelector('#name')
@@ -17,6 +18,10 @@ const sendEmail = () =>{
 if(name.length < 3 || email.length < 2 || message.length < 1) {
   alert(`Imie zbyt krótkie , prosimy wpisac ponownie`)
   setPlaceholder(true)
+  names.classList.toggle('error')
+  names.value = '';
+  emails.value = '';
+  messages.value = '';
 }else{
 
   alert(`Hello ${name} , thanks for your message , We feedback on ${email} as soon as possible ! team Greba . Wiadomość wysłana`)
