@@ -434,8 +434,8 @@ form{
     }
 
     .error{
-        border:2px solid red;
-        background-color: rgb(217, 0, 255);
+        border:2px solid red!important;
+        color:red;
     }
 
 

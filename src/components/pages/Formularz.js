@@ -19,6 +19,8 @@ if(name.length < 3 || email.length < 2 || message.length < 1) {
   alert(`Imie zbyt krótkie , prosimy wpisac ponownie`)
   setPlaceholder(true)
   names.classList.toggle('error')
+  emails.classList.toggle('error')
+  messages.classList.toggle('error')
   names.value = '';
   emails.value = '';
   messages.value = '';
