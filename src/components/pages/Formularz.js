@@ -5,12 +5,14 @@ function Formularz() {
 const [name , setName] = useState('');
 const [email , setEmail] = useState('');
 const [message , setMessage] = useState('');
+const [placholder , setPlaceholder] = useState(false)
 
 const sendEmail = () =>{
 
 
 if(name.length < 3){
   alert(`Imie zbyt krótkie , prosimy wpisac ponownie`)
+  setPlaceholder(true)
 }else{
 
   alert(`Hello ${name} , thanks for your message , We feedback as soon as possible ! team Greba . Wiadomość wysłana`)
@@ -28,7 +30,7 @@ console.log(name)
           <h1>Wyślij nam zapytanie </h1>
 
           <label htmlFor="name">Name:</label>
-          <input id='name' type="text" placeholder='name' autoComplete='off' onChange={ (e) => { setName(e.target.value)}}/>
+          <input id='name' type="text" placeholder={placholder ? 'name is to short !' : 'name'} autoComplete='off' onChange={ (e) => { setName(e.target.value)}}/>
 
           <label htmlFor="email">Email:</label>
           <input id='email' type="email" placeholder='email' autoComplete='off' onChange={ (e) => { setEmail(e.target.value)}}/>
