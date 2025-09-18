@@ -19,53 +19,53 @@ function Wynajem() {
         <h1>Wynajem obiektów</h1>
       </div>
 
-      <div class="boiska">
+      <div className="boiska">
 
-      <div class="male">
+      <div className="male">
 
-        <div class="zdj">
+        <div className="zdj">
           <h2>Małe boisko</h2>
           <img src={małe} alt='male' onClick={handleResize}></img>
         </div>
 
-        <div class="info">
-          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> Szatnia do przebierania</p>
-          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> Prysznice</p>
-          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> Wymiar boiska : 80x40</p>
-          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> 90min - 500zl</p>
-          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> 60min - 300zl</p>
+        <div className="info">
+          <p><i className="fa-solid fa-check" style={{color:'orange'}}></i> Szatnia do przebierania</p>
+          <p><i className="fa-solid fa-check" style={{color:'orange'}}></i> Prysznice</p>
+          <p><i className="fa-solid fa-check" style={{color:'orange'}}></i> Wymiar boiska : 80x40</p>
+          <p><i className="fa-solid fa-check" style={{color:'orange'}}></i> 90min - 500zl</p>
+          <p><i className="fa-solid fa-check" style={{color:'orange'}}></i> 60min - 300zl</p>
         </div>
         
       </div>
 
-      <div class="male">
+      <div className="male">
 
-        <div class="zdj">
+        <div className="zdj">
           <h2>Duże boisko</h2>
           <img src={duze} alt='male' onClick={handleResize}></img>
         </div>
         
-        <div class="info">
-          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> Szatnia do przebierania</p>
-          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> Prysznice</p>
-          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> Wymiar boiska : 100x54</p>
-          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> 90min - 700zl</p>
-          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> 60min - 400zl</p>
+        <div className="info">
+          <p><i className="fa-solid fa-check" style={{color:'orange'}}></i> Szatnia do przebierania</p>
+          <p><i className="fa-solid fa-check" style={{color:'orange'}}></i> Prysznice</p>
+          <p><i className="fa-solid fa-check" style={{color:'orange'}}></i> Wymiar boiska : 100x54</p>
+          <p><i className="fa-solid fa-check" style={{color:'orange'}}></i> 90min - 700zl</p>
+          <p><i className="fa-solid fa-check" style={{color:'orange'}}></i> 60min - 400zl</p>
         </div>
         
       </div>
 
-      <div class="male">
+      <div className="male">
 
-        <div class="zdj">
+        <div className="zdj">
           <h2>Kort tenisowy</h2>
           <img src={kort} alt='male' onClick={handleResize}></img>
         </div>
         
-        <div class="info">
-          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> Wymiar boiska : 30x20</p>
-          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> 90min - 200zl</p>
-          <p><i class="fa-solid fa-check" style={{color:'orange'}}></i> 60min - 100zl</p>
+        <div className="info">
+          <p><i className="fa-solid fa-check" style={{color:'orange'}}></i> Wymiar boiska : 30x20</p>
+          <p><i className="fa-solid fa-check" style={{color:'orange'}}></i> 90min - 200zl</p>
+          <p><i className="fa-solid fa-check" style={{color:'orange'}}></i> 60min - 100zl</p>
         </div>
         
       </div>
