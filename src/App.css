@@ -393,6 +393,7 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
+    color:white;
 }
 
 form{
@@ -424,6 +425,7 @@ form{
         background-color: rgb(211, 211, 211);
         border-radius: 5px;
         margin-bottom: 10px;
+        height: 300px;
         
     }
 
