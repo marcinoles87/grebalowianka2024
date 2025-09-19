@@ -192,6 +192,14 @@ h1{
 .galeria-container{
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+    margin-top: 10px;
+    background-image: url('../src/components/imgMecze/gre_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    backdrop-filter:grayscale(0)
 
 }
 
