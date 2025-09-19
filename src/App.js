@@ -20,6 +20,7 @@ import Zarzad from './components/pages/Zarzad';
 import Oboz from './components/pages/Oboz';
 import Wynajem from './components/pages/Wynajem';
 import Formularz from './components/pages/Formularz';
+import Mecze from './components/pages/Mecze';
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
           <Route path='/oboz' element={<Oboz/>}></Route>
           <Route path='/wynajem' element={<Wynajem/>}></Route>
           <Route path='/kontakt' element={<Formularz/>}></Route>
+          <Route path='/mecze' element={<Mecze/>}></Route>
         
 
       </Routes>

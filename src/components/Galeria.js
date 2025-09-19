@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 
@@ -5,7 +6,7 @@ function Galeria() {
   return (
     <div>
         <div className='galeria-container'>
-            <h1>Galeria</h1>
+            <Link to={'/mecze'}><h1>Galeria</h1></Link>
         
             </div>
         
