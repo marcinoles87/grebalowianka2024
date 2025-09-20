@@ -24,6 +24,17 @@ import Mecze from './components/pages/Mecze';
 
 
 function App() {
+
+  window.addEventListener( 'scroll' , () => {
+     const fromHeight = window.pageYOffset
+  console.log(fromHeight)
+
+  if(fromHeight > 700){
+    const el = document.querySelector('.galeria-container')
+    el.classList.toggle('visible')
+  }
+  })
+ 
   return (
     <div className="App">
 
