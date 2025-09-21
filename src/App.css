@@ -200,7 +200,7 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
-    visibility: hidden;
+    opacity: 0;
     transition: 1s ease;
     
     
@@ -221,7 +221,7 @@ h1{
 }
 
 .visible{
-    visibility: visible;
+    opacity: 1;
 }
 
 
