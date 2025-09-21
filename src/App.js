@@ -27,7 +27,12 @@ function App() {
 
   window.addEventListener( 'scroll' , () => {
      const fromHeight = window.pageYOffset
-  console.log(fromHeight)
+  
+
+  if(fromHeight > 170){
+    const infos = document.querySelector('.aktualnosci')
+    infos.classList.add('visible')
+  }
 
   if(fromHeight > 700){
     const el = document.querySelector('.galeria-container')
