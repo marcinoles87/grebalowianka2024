@@ -200,6 +200,8 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
+    visibility: hidden;
+    transition: 1s ease;
     
     
 

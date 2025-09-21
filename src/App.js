@@ -31,7 +31,8 @@ function App() {
 
   if(fromHeight > 700){
     const el = document.querySelector('.galeria-container')
-    el.classList.toggle('visible')
+    el.classList.add('visible')
+    console.log(el)
   }
   })
  
